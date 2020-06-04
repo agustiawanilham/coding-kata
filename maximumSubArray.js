@@ -9,9 +9,8 @@ const maxSequence = (arr) => {
   }
   let arrayTemp = [];
   let sumTemp = 0;
-
 };
 
-console.log(calculateSumArray([1,2,3]));
+console.log(calculateSumArray([1, 2, 3]));
 console.log(maxSequence([]), 0);
 console.log(maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]), 6);

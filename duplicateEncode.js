@@ -1,22 +1,3 @@
-// My Solution
-// function duplicateEncode(word) {
-//   if (!word) {
-//     return;
-//   }
-//   let str = word.toLowerCase();
-//   let newStr = "";
-//   for (let i = 0; i < str.length; i++) {
-//     let _char = str.charAt(i);
-//     if (str.indexOf(_char) == str.lastIndexOf(_char)) {
-//       newStr += "(";
-//     } else {
-//       newStr += ")";
-//     }
-//   }
-//   return newStr;
-// }
-
-// Best Solution
 function duplicateEncode(word) {
   return word
     .toLowerCase()
